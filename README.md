@@ -1,2 +1,11 @@
 # Soul-Fight
-SWE311 Mobile Application System Design &amp; SWE312 Distributed System Project - Mental Arithmetic Server-Client Multiplayer e-Learning Game
+### SWE311 Mobile Application System Design &amp; SWE312 Distributed System Project
+
+#### Leader: Liew Zhenyang
+#### Groupmates: Tee Yi Wen, Song Peitze
+
+A mobile mental arithmetic e-learning multiplayer game based on server-client architecture using Java socket programming
+
+IDE used: Android Studio for client side code, Apache NetBeans for server side code
+
+
