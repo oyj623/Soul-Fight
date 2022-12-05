@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-
+import android.os.CountDownTimer;
 public class MainActivity extends AppCompatActivity {
 
     ImageView logo;
@@ -23,7 +23,17 @@ public class MainActivity extends AppCompatActivity {
         logo = findViewById(R.id.logo);
 
         logo.animate().translationY(-2000).setDuration(700).setStartDelay(1500);
+        new CountDownTimer(1500, 1500) {
 
+            public void onTick(long millisUntilFinished) {
+            }
+
+            public void onFinish() {
+                Intent i = new Intent(getApplicationContext(), LoginActivity.class);
+                startActivity(i);
+            }
+
+        }.start();
 
     }
 }

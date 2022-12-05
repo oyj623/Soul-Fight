@@ -8,17 +8,19 @@
         android:id="@+id/username"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:layout_constraintWidth_percent=".7"
-        app:layout_constraintVertical_bias=".4"
-        app:layout_constraintHorizontal_bias=".65"
         android:hint="Username"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
+        android:textColor="@color/brown"
+        android:textColorHint="@color/brown"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".65"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".23"
+        app:layout_constraintWidth_percent=".7" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -38,6 +40,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:hint="Password"
+        android:textColor="@color/brown"
+        android:textColorHint="@color/brown"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
